@@ -1,0 +1,19 @@
+{
+  "name": "MEOWWW",
+  "description": "Sends cat picture",
+  "version": "1.0",
+  "manifest_version":2,
+
+
+  "browser_action":
+  {  "default_popup":"popup.html"
+  },
+
+
+ "permissions": 
+ [
+"http://*/*",
+"https://*/*"
+]
+
+}
